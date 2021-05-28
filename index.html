@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+        <title>Резюме</title>
+    </head>
+        <body>
+            <div>
+            <div class="*"> <!-- Заголовок -->
+                <h1 style="text-align: center;"><b>Резюме</b></h1>
+                <hr color="black">
+
+                <div class="maintext">    <!-- ФИО -->
+                    <p ><b> ФИО : </b> Галкин Дмитрий Андреевич </p>
+                    <br></br>
+                </div>
+                <div>
+                    <p class="border_text" id="RandomColor"><b>О себе:</b> <br></br>Студент Великого во Вселеной университета,
+                        обучаюсь на Великой кафедре Компьютерных Систем управления.<br></br>
+                    Своими глазами вы лицезреете скромную работу, на которой были получены практические знания о вёрстке простенькой HTML-странички.</p>
+                </div>
+
+               <div>    
+                <p class="text_above_video"><b>Пару слов о работе: </b></p>
+               </div>
+                <div class="video">   <!-- Видео -->
+                    <video controls width="480" src="video/Вот всей швали моих критиков.mp4"></video>
+                </div>
+
+                <div>
+                    <button class="button_position" onclick="getRandomColor()">Клацай для изменения цвета текста</button>
+                </div>
+                <script src="scripts/RandomColor.js"></script>
+
+            </div>
+        </div>
+        </body>
+
+</html>
